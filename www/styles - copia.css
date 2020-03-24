@@ -1,0 +1,105 @@
+input[type="number"] {
+  max-width: 80%;
+}
+
+div.outer {
+  position: fixed;
+  top: 41px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Customize fonts */
+  body, label, input, button, select { 
+    font-family: "Source Sans Pro", "Arial Rounded MT Bold" ;
+    font-weight: bold;
+  }
+h1, h2, h3, h4 { font-weight: 400; }
+
+#controls {
+/* Appearance */
+  background-color: white;
+padding: 0 20px 20px 20px;
+cursor: move;
+/* Fade out while not hovering */
+  opacity: 0.65;
+zoom: 0.9;
+transition: opacity 500ms 1s;
+}
+#controls:hover {
+/* Fade in while hovering */
+  opacity: 0.95;
+transition-delay: 0;
+}
+
+/* Position and style citation */
+  #cite {
+  position: absolute;
+bottom: 10px;
+left: 10px;
+font-size: 12px;
+}
+
+/* If not using map tiles, show a white background */
+  .leaflet-container {
+    background-color: white !important;
+  }
+
+/* header title area font */
+.main-header .logo {
+  font-family: "Source Sans Pro", "Arial Rounded MT Bold" ;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+
+/* background color of header (logo part) */
+.skin-blue .main-header .logo {
+          background-color: #D4D800; /* backgorund color of the logo header part */
+          color: rgb(0, 26, 123); /* title text color */
+          height: 50px;
+
+        }
+        
+        
+/* change the background color of header (logo part) when mouse hover */
+.skin-blue .main-header .logo:hover {
+          background-color: #EBC000; /* backgorund color of the logo header part on mouse hover */
+          color:rgb(0, 26, 123);
+        }
+  
+/* Edit the below for the header title hyperlink */
+.skin-blue .main-header .logo>a {
+            color: white; /* color of the hyperlink text */
+
+          
+        }
+        
+/* Edit the below to get the header title hyperlink hover effect */  
+.skin-blue .main-header .logo>a:hover {
+          color:black;  /* color of the hyperlink text on mouse hover */
+          
+        }
+        
+.skin-blue .main-sidebar {
+      background: #737277;
+      border-radius: 0px;
+      }
+      
+
+.skin-blue .content-wrapper, .right-side {
+      background: linear-gradient( #FFFFFF,#FFFFFF);
+      border-radius: 0px;
+      
+       }
+       
+
+.skin-blue .main-header .navbar {
+      background-color: #D4D800;
+      
+  
+       }

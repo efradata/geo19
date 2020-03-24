@@ -1,0 +1,55 @@
+/* header title area font */
+.main-header .logo {
+  font-family: "Source Sans Pro", "Arial Rounded MT Bold" ;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+
+/* background color of header (logo part) */
+.skin-blue .main-header .logo {
+          background-color: #D4D800; /* backgorund color of the logo header part */
+          color: rgb(0, 26, 123); /* title text color */
+          height: 50px;
+
+        }
+        
+        
+/* change the background color of header (logo part) when mouse hover */
+.skin-blue .main-header .logo:hover {
+          background-color: #EBC000; /* backgorund color of the logo header part on mouse hover */
+          color:rgb(0, 26, 123);
+        }
+  
+/* Edit the below for the header title hyperlink */
+.skin-blue .main-header .logo>a {
+            color: white; /* color of the hyperlink text */
+
+          
+        }
+        
+/* Edit the below to get the header title hyperlink hover effect */  
+.skin-blue .main-header .logo>a:hover {
+          color:black;  /* color of the hyperlink text on mouse hover */
+          
+        }
+        
+.skin-blue .main-sidebar {
+      background: #737277;
+      border-radius: 0px;
+      }
+      
+
+.skin-blue .content-wrapper, .right-side {
+      background: linear-gradient( #FFFFFF,#FFFFFF);
+      border-radius: 0px;
+      
+       }
+       
+
+.skin-blue .main-header .navbar {
+      background-color: #D4D800;
+      
+  
+       }
